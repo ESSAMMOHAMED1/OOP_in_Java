@@ -4,7 +4,6 @@
 public class Main {
   final int x = 10;
   final double PI = 3.14;
-
   public static void main(String[] args) {
     Main myObj = new Main();
     myObj.x = 50; // will generate an error: cannot assign a value to a final variable
@@ -12,7 +11,7 @@ public class Main {
     System.out.println(myObj.x);
   }
 }
-
+//=====================================================================================================
 // 2- static 
 
 // static method means that it can be accessed without creating an object of the class,
@@ -38,7 +37,7 @@ public class Main {
     myObj.myPublicMethod(); // Call the public method
   }
 }
-
+//=====================================================================================================
 // 3- abstract
 //An abstract method belongs to an abstract class,
 // and it does not have a body. The body is provided by the subclass
